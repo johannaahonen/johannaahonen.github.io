@@ -51,20 +51,6 @@
         </header>
         <!-- About-->
 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/assets/img/ahonen-kuva.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
-
 
         <section class="page-section bg-primary" id="about">
             <div class="container px-4 px-lg-5">
@@ -81,7 +67,7 @@
         <!-- Services-->
         <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">At Your Service</h2>
+                <h2 class="text-center mt-0">Otsikko</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
@@ -114,6 +100,30 @@
                     </div>
                 </div>
             </div>
+
+            <pre>
+                <b>Note:</b>
+                using <a href="getbootstrap.com/">bootstrap 3.2.0</a> and <a href="https://github.com/eternicode/bootstrap-datepicker">eternicode bootstrap-datepicker</a>
+                </pre>
+                <pre>
+                <b>@import css</b>
+                &lt;link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+                &lt;link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+                </pre>
+                <pre>
+                <b>@import js</b>
+                jQuery.js
+                &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">&lt;/script>
+                &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js">&lt;/script>
+                </pre>
+                <label>Select Date: </label>
+                <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                    <input class="form-control" type="text" readonly />
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                </div>
+                
+                
+
         </section>
         <!-- Portfolio-->
         <div id="portfolio">
